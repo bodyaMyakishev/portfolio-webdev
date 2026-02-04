@@ -1,40 +1,26 @@
-# CleanAuto Landing Page
+# Целевая страница CleanAuto
 
-A minimal, professional landing page for an auto service detailing business. Designed with a focus on clean typography, grid layouts, and smooth user interactions. This project is a demo of modern static site development.
+Профессиональная целевая страница с минималистичным дизайном для бизнеса, занимающегося автосервисами. Разработанный с акцентом на чистую типографику, макеты сеток и плавное взаимодействие с пользователем. Этот проект представляет собой демонстрацию разработки современного статического сайта.
 
-![CleanAuto Preview](https://via.placeholder.com/1200x600?text=Preview+Image)
+## Особенности
 
-## Features
+- **Минималистичный дизайн**: Высокая контрастность, четкая типографика и много свободного пространства.
+- **Адаптивный макет**: Подходит для просмотра на мобильных устройствах, планшетах и настольных компьютерах.
+- **Стекломорфизм и микровзаимодействия**: тонкие эффекты стекла и анимация, запускаемая прокруткой.
+- **Имитация формы**: обработка JavaScript для отправки формы (имитирует успешный ответ серверной части).
+- **Оптимизирован для SEO**: правильно настроены семантический HTML и мета-описания.
 
-- **Minimalist Design**: High-contrast, stark typography, and plenty of negative space.
-- **Responsive Layout**: Validated on mobile, tablet, and desktop viewports.
-- **Glassmorphism & Micro-interactions**: Subtle glass effects and scroll-triggered animations.
-- **Form Simulation**: JavaScript handling for form submissions (mocks a backend success response).
-- **SEO Optimized**: Semantic HTML and meta descriptions properly configured.
+## Технический стек
 
-## Tech Stack
+- **HTML5**: Семантическая разметка.
+- **CSS3**: Методология BEM, переменные CSS, сетка/Flexbox.
+- **JavaScript (Vanilla)**: Логика взаимодействия ("IntersectionObserver" для анимации).
 
-- **HTML5**: Semantic markup.
-- **CSS3**: BEM methodology, CSS Variables, Grid/Flexbox.
-- **JavaScript (Vanilla)**: Interaction logic (`IntersectionObserver` for animations).
-
-## Getting Started
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/clean-auto-landing.git
-    ```
-2.  Open `index.html` in your browser.
-
-## Structure
+## Структура
 
 ```
-├── index.html   # Main structure
-├── style.css    # All styles (CSS Variables, Responsive)
-├── script.js    # Logic (Forms, Animations)
-└── README.md    # Documentation
+├── index.html # Основная структура
+├── style.css  # Все стили (переменные CSS, адаптивный)
+├── script.js  # Логика (формы, анимация)
+└── README.md  # Документация
 ```
-
-## License
-
-MIT
