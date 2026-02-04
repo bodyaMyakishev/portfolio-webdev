@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Профессиональная автомойка и химчистка автомобиля. Быстро, качественно, премиум сервис." />
+  <title>Автомойка «Чистый Автомобиль»</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <h1>CleanAuto</h1>
+      </div>
+      <nav class="header__nav">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#contacts" class="btn btn--nav">Записаться</a>
+      </nav>
+      <!-- Mobile Menu Toggle could be added here later -->
+    </div>
+  </header>
+
+  <!-- Главный экран -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__container">
+      <div class="hero__content fade-in">
+        <h2>Идеальная чистота <br> вашего автомобиля</h2>
+        <p>Премиум мойка, детейлинг и химчистка. <br>Восстановим салонный вид за 45 минут.</p>
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">Записаться онлайн</a>
+          <a href="#services" class="btn btn--secondary">Узнать больше</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 class="section-title fade-in">Наши услуги</h2>
+      <div class="services__grid">
+        <div class="service-card glass fade-in">
+          <div class="service-icon">✨</div>
+          <h3>Экспресс‑мойка</h3>
+          <p>Быстрая и бережная мойка кузова активной пеной, очистка дисков и чернение резины.</p>
+          <div class="service-footer">
+            <span class="price">от 500 ₽</span>
+          </div>
+        </div>
+        <div class="service-card glass fade-in">
+          <div class="service-icon">💎</div>
+          <h3>Детейлинг</h3>
+          <p>Глубокая очистка кузова, удаление битума, металлических вкраплений и защита воском.</p>
+          <div class="service-footer">
+            <span class="price">от 1200 ₽</span>
+          </div>
+        </div>
+        <div class="service-card glass fade-in">
+          <div class="service-icon">🛋️</div>
+          <h3>Химчистка</h3>
+          <p>Комплексная химчистка салона гипоаллергенными средствами с полным разбором.</p>
+          <div class="service-footer">
+            <span class="price">от 3500 ₽</span>
+          </div>
+        </div>
+        <div class="service-card glass fade-in">
+          <div class="service-icon">🛡️</div>
+          <h3>Полировка</h3>
+          <p>Восстановительная полировка кузова, удаление паутинки и керамическое покрытие.</p>
+          <div class="service-footer">
+            <span class="price">от 5000 ₽</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Цены -->
+  <section id="prices" class="prices section">
+    <div class="container">
+      <h2 class="section-title fade-in">Прайс‑лист</h2>
+      <div class="prices__wrapper glass fade-in">
+        <table class="prices__table">
+          <thead>
+            <tr>
+              <th>Услуга</th>
+              <th>Мини</th>
+              <th>Седан</th>
+              <th>Кроссовер</th>
+              <th>Джип</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Экспресс‑мойка</td>
+              <td>500 ₽</td>
+              <td>600 ₽</td>
+              <td>700 ₽</td>
+              <td>800 ₽</td>
+            </tr>
+            <tr>
+              <td>Комплекс "Стандарт"</td>
+              <td>900 ₽</td>
+              <td>1100 ₽</td>
+              <td>1300 ₽</td>
+              <td>1500 ₽</td>
+            </tr>
+            <tr>
+              <td>Комплекс "Премиум"</td>
+              <td>1500 ₽</td>
+              <td>1800 ₽</td>
+              <td>2200 ₽</td>
+              <td>2500 ₽</td>
+            </tr>
+            <tr>
+              <td>Химчистка (1 сиденье)</td>
+              <td>800 ₽</td>
+              <td>800 ₽</td>
+              <td>800 ₽</td>
+              <td>800 ₽</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма записи -->
+  <section id="contacts" class="contacts section">
+    <div class="container">
+      <div class="contacts__content">
+        <div class="contacts__info fade-in">
+          <h2>Оставьте заявку</h2>
+          <p>Заполните форму, и мы перезвоним вам в течение 5 минут для подтверждения записи.</p>
+          <ul class="contacts__list">
+            <li>📍 г. Челябинск, ул. Каслинская, 105</li>
+            <li>📞 +7 (900) 123-45-67</li>
+            <li>⏰ Ежедневно с 09:00 до 22:00</li>
+          </ul>
+        </div>
+        <div class="contacts__form-wrapper glass fade-in delay-100">
+          <form id="booking-form">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" placeholder="Иван" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Тип услуги</label>
+              <select id="service" name="service">
+                <option value="Экспресс‑мойка">Экспресс‑мойка</option>
+                <option value="Детейлинг">Детейлинг</option>
+                <option value="Химчистка">Химчистка</option>
+                <option value="Полировка">Полировка</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__logo">CleanAuto</div>
+      <div class="footer__copyright">
+        &copy; 2026 Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Модальное окно успеха -->
+  <div id="success-modal" class="modal">
+    <div class="modal__content glass">
+      <div class="modal__icon">✅</div>
+      <h3>Заявка принята!</h3>
+      <p>Мы свяжемся с вами в ближайшее время.</p>
+      <button class="btn btn--primary" id="close-modal">Отлично</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
